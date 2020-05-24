@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import PageHeader from '../../Components/PageHeader';
 
-class Profile extends Component {
-	render() {
-		return (
-			<PageHeader>Profile</PageHeader>
-		);
-	}
-}
+const Profile = () => {
+  return (
+    <PageHeader>Profile</PageHeader>
+  );
+};
 
 export default Profile;
